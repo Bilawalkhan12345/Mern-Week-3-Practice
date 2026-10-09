@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="sayhello()">Click me</button>
+
+
+    <script>
+        function sayhello()
+        {
+            alert("Hello");
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+// var name = "Ali";
+// name = "khan";
+// console.log(name);
+
+// let name = "mohsin";
+// name = "khattak";
+// console.log(name);
+
+
+// const name = "fawad";
+// console.log(name);
+
+
+// primitive data types 
+
+// let name = "Ahmed";  // string
+// let age = 25;   // number
+// let height = 5.5; // float
+// let isStudent = true; // boolean
+// let test; // undefined 
+// let city = null; // null
+
+// console.log(city);
+
+
+// non-primitive data types
+
+// let user = {name: "Ahmed" , age: 20 , gender: "male"}; // defining the object
+// console.log(user.gender);
+// console.log(user.age);
+
+// arrays 
+// let fruit = "apple";
+// let fruit = "apple";
+
+// let fruit = ["Apple" , "banana" , 25]
+// console.log(fruit[2]);
+
+
+
+
+
+
+
+
+// changing the data type of variables.
+
+// let age = 25;
+// age = String(age);
+// console.log(typeof age);
+
+// Operator and conditional statements 
+
+// let a = 4;
+// let b = 6;
+// console.log(a - b);
+
+// let a = 4;
+// ++a
+// console.log(a);
+
+// let age = "25";
+// let height = 25;
+
+// console.log(age === height);
+// console.log(age == height);
+
+
+
+// let age = 14;
+// let hasCNIC = true;
+
+// console.log(age >= 18 && hasCNIC);
+
+
+
+
+
+
+
+
+// conditional statement 
+
+// let age = 19;
+
+// if(age>=80)
+// {
+//  console.log("Adult");
+// }
+// else if(age >= 19){
+// console.log("Age is 19")
+// }
+
+// else{
+//  console.log("Minor");
+// }
+
+
+// Ternary Operator (short form of IF/ELSE)
+
+// let age = 17;
+// let result = age >= 18 ? "Adult" : "Minor";
+
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+// Topic : Loop & Iteration
+
+// for loop
+// while , Do while loops
+// syntax 
+// for(initiolization; condition; increment){}
+
+// for(let i = 1; i <= 5 ; i++)
+//     {
+//         console.log(i);
+//     }
+
+
+
+// let array = ["mudasir" , "moeez" , "fawad" , "ubaid"];
+
+// for(let val of array)
+// {
+//     console.log(val);
+// }
+
+
+// let obj = {name: "Bilawal" , Age: 20 };
+
+// for(let key in obj)
+// {
+//     console.log(key, obj[key]);
+// }
+
+
+
+ for(let i = 1; i <= 5 ; i++)
+     {
+     if(i == 3) continue;
+     console.log(i);
+     }
+     
+console.log("========");
+console.log("========");
+
+ for(let i = 1; i <= 5 ; i++)
+     {
+     if(i == 3) break;
+     console.log(i);
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+// Functions
+ 
+function greet(name) // here name is perameters 
+{
+    // piece of code 
+    console.log("hello" , name);
+}
+
+greet("Bilawal"); // here Bilawal is argument of perameters
+greet("Khan");
+
+function add(a, b)
+{
+    console.log(a + b);
+}
+
+add(5, 10);
